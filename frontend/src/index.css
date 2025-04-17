@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+@import "tailwindcss";
+
+:root {
+  --banner-color-1: #3490dc;
+  --banner-color-2: #fdc200;
+  --banner-color-3: #ff2c2c;
+  --banner-color-4: #21ad61;
+  --banner-color-5: #723da6;
+}
+
+@layer utilities {
+  .banner-1 {
+    background-color: var(--banner-color-1);
+  }
+
+  .banner-2 {
+    background-color: var(--banner-color-2);
+  }
+
+  .banner-3 {
+    background-color: var(--banner-color-3);
+  }
+
+  .banner-4 {
+    background-color: var(--banner-color-4);
+  }
+
+  .banner-5 {
+    background-color: var(--banner-color-5);
+  }
+
+  .bg-custom-gradient {
+    background-image: linear-gradient(to right, #111827, #1f2937);
+  }
+
+  .bg-customBlue {
+    background-color: rgba(28, 100, 242, 1);
+  }
+  .bg-button-gradient{
+    background-image: linear-gradient(to right, #7e22ce, #ef4444);
+  }
+  .shadow-custom {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+  }
+}
