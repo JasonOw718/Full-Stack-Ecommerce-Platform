@@ -15,8 +15,8 @@ A secure, scalable, and modern e-commerce web application built with **Spring Bo
 - ⚙️ **Redux Toolkit**  
   Efficient global state management across the React frontend for a consistent user experience.
 
-- 📄 **Pagination for Product Listings**
-Server-side pagination implemented to improve performance and user experience when browsing large product catalogs.
+- 📄 **Pagination for Product Listings**  
+  Server-side pagination implemented to improve performance and user experience when browsing large product catalogs.
 
 ---
 
@@ -39,24 +39,6 @@ Server-side pagination implemented to improve performance and user experience wh
 
 ---
 
-## 📁 Project Structure
-
-```
-/backend
-  └── src
-      └── main
-          └── java
-              └── com.example.ecommerce
-/frontend
-  └── src
-      ├── components
-      ├── pages
-      ├── store
-      └── App.js
-```
-
----
-
 ## 🔧 Installation
 
 ### 1. Clone the Repository
@@ -66,9 +48,6 @@ git clone https://github.com/your-username/ecommerce-platform.git
 cd ecommerce-platform
 ```
 
-Got it! Here's the cleaned-up **Backend Setup** section with **placeholder credentials**, ready for safe inclusion in your `README.md`:
-
-```markdown
 ### 2. Backend Setup
 
 1. Navigate to the backend folder:
@@ -100,7 +79,7 @@ spring.security.cookieName=SpringBootEcom
 frontend.url=http://localhost:5173/
 base.url=http://localhost:8080/images
 
-# Stripe secret key (loaded from environment variable or secure store)
+# Stripe secret key (use env var or secret manager in production)
 spring.stripe.key=${STRIPE_SECRET_KEY}
 ```
 
@@ -108,7 +87,6 @@ spring.stripe.key=${STRIPE_SECRET_KEY}
 
 ```bash
 ./mvnw spring-boot:run
-```
 ```
 
 ### 3. Frontend Setup
@@ -140,7 +118,5 @@ Check out the full project demo on YouTube:
 
 For questions or collaboration:
 
-- LinkedIn: [linkedin](https://www.linkedin.com/in/owkasheng)  
-- Email: kashengow@gmail.com
-
----
+- 💼 [LinkedIn](https://www.linkedin.com/in/owkasheng)  
+- 📧 kashengow@gmail.com
